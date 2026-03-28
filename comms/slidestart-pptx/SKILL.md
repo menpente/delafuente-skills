@@ -37,6 +37,22 @@ Structure the overall deck using the SCQA storytelling framework:
 
 If the user provides a simpler brief (e.g., "make me a deck about X"), still apply this structure to organize their content logically.
 
+**Exception — investor pitch decks**: When the deck is for fundraising (seed, Series A, Demo Day), replace SCQA with the canonical investor narrative sequence:
+
+| # | Slide | What it must answer |
+|---|-------|-------------------|
+| 1 | **Cover** | Company name + one-liner (what you do, for whom) |
+| 2 | **Problem** | What specific pain exists, for whom, with evidence |
+| 3 | **Solution** | How you solve it — simple, not feature-heavy |
+| 4 | **Why Now** | What changed that makes this the right moment |
+| 5 | **Market** | Bottom-up TAM/SAM/SOM — show your math |
+| 6 | **Traction** | Your most meaningful metric, with growth rate |
+| 7 | **Business Model** | How you make money, in one sentence |
+| 8 | **Team** | Who you are and why you're the ones to do this |
+| 9 | **Ask** | Amount, use of funds, where you'll be in 12 months |
+
+Rule: investors decide within the first minute. The first three slides — problem, solution, traction — carry 80% of the weight. Make them impossible to misread.
+
 ## Slide Type Selection
 
 For each slide in the deck, choose the most appropriate slide type from the consulting slide taxonomy. **Read `references/slide-types.md`** for full layout blueprints. The available types are:
@@ -83,6 +99,22 @@ For each slide in the deck, choose the most appropriate slide type from the cons
 - **Left-align body text**: Only center titles. Never center paragraphs or bullets.
 - **NEVER use accent lines under titles**: This is a hallmark of AI-generated slides
 
-## Output
+### Chart takeaway rule
+Never show a chart alone and expect the audience to draw the conclusion. Always write the takeaway as a text statement — then place the chart below it as evidence. The slide title states the insight; the chart proves it. If someone has to interpret the chart to understand the slide, the slide is not done.
+
+### Legibility rules
+- Minimum font size: 18px body, 24px+ for titles. If it looks small in the editor, it's too small on screen.
+- High contrast always: dark text on light background or light text on dark. No grey-on-grey.
+- Place key text at the top — easier to read from the back of a large room.
+- When in doubt: make the font bigger and remove a bullet point.
+
+### Screenshots and screencasts
+Avoid screenshots of UIs, dashboards, or products in slides. They contain too much detail, render poorly at distance, and force the audience to read instead of listen. Replace with a simplified diagram, a key metric callout, or a hand-drawn flow. The one exception: if the screenshot IS the product and showing it is the point (e.g. a before/after comparison).
+
+### The 5-7 ideas rule (pitch and executive decks)
+Before building any slide, list the 5-7 things the audience must remember when they leave the room. Every slide must serve at least one of those ideas. If a slide doesn't map to any of the 5-7 — cut it. People will remember 1-2 things at best; make sure the right 1-2 things are impossible to miss.
+
+### Complexity as a rhetorical device
+The one-idea-per-slide rule has an exception: when your point IS the complexity. If you want to show how hard a problem is — e.g. the fragmentation of a market, the number of steps in a process, the scale of a competitor landscape — an intentionally dense slide can make the point more powerfully than a clean one. Use deliberately, label clearly, and follow it immediately with a clean slide that resolves the complexity.
 
 Always output a `.pptx` file to `/mnt/user-data/outputs/` and present it to the user.

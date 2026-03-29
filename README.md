@@ -125,9 +125,20 @@ Applies the Jobs To Be Done (JTBD) framework to understand why customers buy, sw
 
 ## Usage
 
-1. Copy the desired skill folder into `/mnt/skills/user/` in your Claude environment
-2. Claude will automatically detect and use the skill based on your request
-3. You can also explicitly ask: *"Use the xmr-chart skill to..."*
+### Install a skill
+
+```bash
+git clone https://github.com/rubendelafuente/delafuente-skills.git
+cp -r delafuente-skills/data/xmr-chart /mnt/skills/user/
+```
+
+Skills live in `/mnt/skills/user/` in the Claude environment. Once copied, Claude detects and applies them automatically based on your request.
+
+### Invoke explicitly
+
+> "Use the xmr-chart skill to plot this time series data."
+
+You can always name a skill explicitly if Claude doesn't auto-trigger it.
 
 ---
 

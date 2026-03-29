@@ -24,15 +24,16 @@ delafuente-skills/
 │   ├── statistical-test-selector/
 │   ├── quasi-experimental-design/
 │   ├── xmr-chart/
-│   └── 6-12-chart/
+│   ├── 6-12-chart/
+│   ├── input-output-metrics/
+│   ├── linear-programming/
+│   └── next-best-action/
 ├── comms/                       # Content creation and presentation
 │   ├── linkedin-post-creator/
 │   └── slidestart-pptx/
-├── strategy/                    # Business strategy and planning
-│   └── csf-identifier/
-├── devops/                      # DevOps and MLOps (in progress)
-└── language/                    # Linguistics and legal language tools
-    └── constitucion-espanola-validador/
+└── strategy/                    # Business strategy and planning
+    ├── csf-identifier/
+    └── jobs-to-be-done/
 ```
 
 ---
@@ -103,15 +104,6 @@ Writes high-engagement LinkedIn posts with a companion whiteboard-style infograp
 Produces consulting-grade PowerPoint decks inspired by McKinsey/BCG style. Applies Pyramid Principle / SCQA structure, proper data visualization choices, and a consistent design system. Outputs a `.pptx` file.
 
 **Triggers:** "slide deck", "presentation", "consulting slides", "pitch deck", "McKinsey style"
-
----
-
-### 🏛️ Language
-
-#### `constitucion-espanola-validador`
-Validates rewrites of the Spanish Constitution in plain language. Detects changes in fundamental rights, constitutional procedures, normative hierarchies, and competences. Generates side-by-side comparisons with issue classification (critical / moderate / minor).
-
-**Triggers:** plain language rewrite of constitutional articles, legal language validation in Spanish
 
 ---
 

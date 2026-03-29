@@ -78,6 +78,13 @@ Formulates and solves LP, Integer, Mixed-Integer, and Binary programming problem
 
 ---
 
+#### `next-best-action`
+Designs and implements Next Best Action (NBA) frameworks for customer-facing decisions. Covers rule-based, propensity scoring, and multi-armed bandit (Thompson Sampling) approaches. Outputs a ranked action recommendation with business rules, Python implementation, and expected value table.
+
+**Triggers:** "next best action", "NBA", "what should we show this customer", "customer decisioning", "which offer to send", "propensity model", "retention action", "upsell trigger"
+
+---
+
 ### 📣 Comms
 
 #### `linkedin-post-creator`
@@ -109,6 +116,13 @@ Validates rewrites of the Spanish Constitution in plain language. Detects change
 Identifies Critical Success Factors (CSFs) for a business, strategy, or project. Follows a 6-step process: clarify strategic goals, analyze industry context, define key result areas, apply the critical test, and link each CSF to KPIs/OKRs with an owner. Outputs a summary table, a narrative per CSF, and a prioritization note.
 
 **Triggers:** "critical success factors", "CSF", "what must go right", "make-or-break factors", "strategic priorities", project kickoffs, strategy reviews, OKR planning sessions
+
+---
+
+#### `jobs-to-be-done`
+Applies the Jobs To Be Done (JTBD) framework to understand why customers buy, switch, or churn. Extracts functional, emotional, and social jobs from interviews or reviews. Produces job statements, Ulwick opportunity scores, Four Forces switch analysis, and strategic implications for product, messaging, pricing, and sales.
+
+**Triggers:** "jobs to be done", "JTBD", "why do customers buy", "customer motivation", "switching triggers", "hire a product", "what job is this product doing", "product-market fit", "voice of customer"
 
 ---
 

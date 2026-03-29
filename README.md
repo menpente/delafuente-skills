@@ -23,6 +23,8 @@ delafuente-skills/
 ├── comms/                       # Content creation and presentation
 │   ├── linkedin-post-creator/
 │   └── slidestart-pptx/
+├── strategy/                    # Business strategy and planning
+│   └── csf-identifier/
 ├── devops/                      # DevOps and MLOps (in progress)
 └── language/                    # Linguistics and legal language tools
     └── constitucion-espanola-validador/
@@ -87,6 +89,15 @@ Validates rewrites of the Spanish Constitution in plain language. Detects change
 
 ---
 
+### 🎯 Strategy
+
+#### `csf-identifier`
+Identifies Critical Success Factors (CSFs) for a business, strategy, or project. Follows a 6-step process: clarify strategic goals, analyze industry context, define key result areas, apply the critical test, and link each CSF to KPIs/OKRs with an owner. Outputs a summary table, a narrative per CSF, and a prioritization note.
+
+**Triggers:** "critical success factors", "CSF", "what must go right", "make-or-break factors", "strategic priorities", project kickoffs, strategy reviews, OKR planning sessions
+
+---
+
 ## Usage
 
 1. Copy the desired skill folder into `/mnt/skills/user/` in your Claude environment
@@ -97,6 +108,8 @@ Validates rewrites of the Spanish Constitution in plain language. Detects change
 
 ## Roadmap
 
+- `strategy/okr-planner` — OKR design and alignment from strategy to team level
+- `strategy/swot-to-strategy` — structured SWOT → strategic options → priorities
 - `devops/dora-metrics` — DORA metrics interpreter with LLM analysis
 - `devops/incident-postmortem` — structured incident report generator
 - `data/wbr-report` — Weekly Business Review from CSV

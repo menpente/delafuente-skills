@@ -64,6 +64,13 @@ Creates year-over-year comparison charts plotting the current 12-month window ag
 
 ---
 
+#### `input-output-metrics`
+Classifies metrics as input (leading, controllable) or output (lagging, outcome) and builds a metric tree showing how inputs influence outputs. Surfaces missing input metrics when only outputs are provided. Includes guard rail recommendations to prevent gaming.
+
+**Triggers:** "input metrics", "output metrics", "leading vs lagging", "metric framework", "metric tree", "what drives this KPI", "I only have outcome metrics", "north star metric"
+
+---
+
 ### 📣 Comms
 
 #### `linkedin-post-creator`

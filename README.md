@@ -1,5 +1,10 @@
 # delafuente-skills
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Skills](https://img.shields.io/badge/skills-11-blue)](#skills)
+[![Built with Claude](https://img.shields.io/badge/built%20with-Claude-blueviolet)](https://claude.ai)
+[![delafuente.ai](https://img.shields.io/badge/web-delafuente.ai-lightgrey)](https://delafuente.ai)
+
 Claude skill library for data science, DevOps, and communications work.
 Built and maintained by [Ruben de la Fuente](https://delafuente.ai).
 

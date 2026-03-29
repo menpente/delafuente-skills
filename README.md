@@ -71,6 +71,13 @@ Classifies metrics as input (leading, controllable) or output (lagging, outcome)
 
 ---
 
+#### `linear-programming`
+Formulates and solves LP, Integer, Mixed-Integer, and Binary programming problems from plain-language descriptions. Extracts decision variables, objective function, and constraints from prose; solves with PuLP (CBC) or SciPy; delivers mathematical formulation, full Python code, solution table, sensitivity analysis, and plain-language interpretation.
+
+**Triggers:** "linear programming", "LP", "optimize", "maximize", "minimize", "subject to constraints", "resource allocation", "scheduling problem", "blending problem", "transportation problem", "assignment problem"
+
+---
+
 ### 📣 Comms
 
 #### `linkedin-post-creator`

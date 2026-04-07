@@ -41,6 +41,7 @@ jobs:
         id: diff
         run: |
           git diff --quiet docs/sources-live.json \
+            && git ls-files --error-unmatch docs/sources-live.json 2>/dev/null \
             && echo "changed=false" >> $GITHUB_OUTPUT \
             || echo "changed=true" >> $GITHUB_OUTPUT
 

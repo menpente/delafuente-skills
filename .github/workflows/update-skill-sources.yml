@@ -37,22 +37,17 @@ jobs:
         run: |
           python fetch_sources.py --out docs/sources-live.json
 
-      - name: Check for changes
-        id: diff
-        run: |
-          git diff --quiet docs/sources-live.json \
-            && git ls-files --error-unmatch docs/sources-live.json 2>/dev/null \
-            && echo "changed=false" >> $GITHUB_OUTPUT \
-            || echo "changed=true" >> $GITHUB_OUTPUT
-
       - name: Commit updated data
-        if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/sources-live.json
-          git commit -m "chore: refresh skill source data [$(date -u +%Y-%m-%d)]"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh skill source data [$(date -u +%Y-%m-%d)]"
+            git push
+          fi
 
       - name: Summary
         run: |

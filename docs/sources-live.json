@@ -1,16 +1,14 @@
 {
   "_meta": {
-    "generatedAt": "2026-06-22T13:38:56+00:00",
+    "generatedAt": "2026-06-29T12:38:40+00:00",
     "sourceCount": 19,
-    "unreachable": [
-      "lobehub"
-    ],
+    "unreachable": [],
     "staleRepos": []
   },
   "sources": {
     "anthropics-skills": {
       "id": "anthropics-skills",
-      "fetchedAt": "2026-06-22T13:38:44+00:00",
+      "fetchedAt": "2026-06-29T12:38:29+00:00",
       "reachable": true,
       "trustScore": 5,
       "trustNotes": "Source of truth. Production-grade, maintained by Anthropic engineers. Document skills battle-tested in production.",
@@ -21,7 +19,7 @@
     },
     "voltagent-awesome": {
       "id": "voltagent-awesome",
-      "fetchedAt": "2026-06-22T13:38:45+00:00",
+      "fetchedAt": "2026-06-29T12:38:29+00:00",
       "reachable": true,
       "trustScore": 4,
       "trustNotes": "High signal. 'Official dev team' badge means the skill is maintained by the library's own team \u2014 meaningful accountability. Best starting point for engineering skills.",
@@ -32,7 +30,7 @@
     },
     "k-dense-scientific": {
       "id": "k-dense-scientific",
-      "fetchedAt": "2026-06-22T13:38:46+00:00",
+      "fetchedAt": "2026-06-29T12:38:30+00:00",
       "reachable": true,
       "trustScore": 4,
       "trustNotes": "Best-in-class security posture for a community repo. Cisco scanner on every contribution. Clear distinction between K-Dense-authored vs community skills.",
@@ -43,7 +41,7 @@
     },
     "alirezarezvani": {
       "id": "alirezarezvani",
-      "fetchedAt": "2026-06-22T13:38:47+00:00",
+      "fetchedAt": "2026-06-29T12:38:31+00:00",
       "reachable": true,
       "trustScore": 3,
       "trustNotes": "High stars = community validation, not security audit. Stdlib-only Python is a meaningful plus \u2014 no pip supply chain risk. Broad scope means quality varies.",
@@ -54,7 +52,7 @@
     },
     "orchestra-research": {
       "id": "orchestra-research",
-      "fetchedAt": "2026-06-22T13:38:48+00:00",
+      "fetchedAt": "2026-06-29T12:38:32+00:00",
       "reachable": true,
       "trustScore": 3,
       "trustNotes": "Highly specialised. Quality high within ML research domain. Autoresearch skill makes autonomous network requests \u2014 review carefully.",
@@ -65,7 +63,7 @@
     },
     "travisvn-awesome": {
       "id": "travisvn-awesome",
-      "fetchedAt": "2026-06-22T13:38:49+00:00",
+      "fetchedAt": "2026-06-29T12:38:33+00:00",
       "reachable": true,
       "trustScore": 3,
       "trustNotes": "Good starting list for Claude-specific skills. Active maintenance. Honest risk disclosure.",
@@ -76,7 +74,7 @@
     },
     "composio-awesome": {
       "id": "composio-awesome",
-      "fetchedAt": "2026-06-22T13:38:50+00:00",
+      "fetchedAt": "2026-06-29T12:38:33+00:00",
       "reachable": true,
       "trustScore": 3,
       "trustNotes": "Composio has a legitimate product. Action skills introduce OAuth flows \u2014 additional trust surface.",
@@ -87,7 +85,7 @@
     },
     "skillmatic-awesome": {
       "id": "skillmatic-awesome",
-      "fetchedAt": "2026-06-22T13:38:51+00:00",
+      "fetchedAt": "2026-06-29T12:38:34+00:00",
       "reachable": true,
       "trustScore": 3,
       "trustNotes": "Meta-list, not a skill collection. High value for orientation and ecosystem mapping.",
@@ -98,7 +96,7 @@
     },
     "behisecc-awesome": {
       "id": "behisecc-awesome",
-      "fetchedAt": "2026-06-22T13:38:52+00:00",
+      "fetchedAt": "2026-06-29T12:38:35+00:00",
       "reachable": true,
       "trustScore": 3,
       "trustNotes": "Security skills are high-stakes \u2014 VibeSec appears well-regarded. DNA/health skills touch sensitive data.",
@@ -109,7 +107,7 @@
     },
     "glebis-skills": {
       "id": "glebis-skills",
-      "fetchedAt": "2026-06-22T13:38:52+00:00",
+      "fetchedAt": "2026-06-29T12:38:36+00:00",
       "reachable": true,
       "trustScore": 3,
       "trustNotes": "Niche but high-quality within consulting/knowledge-management. Single author \u2014 maintenance depends on one person.",
@@ -120,7 +118,7 @@
     },
     "agentskills-io": {
       "id": "agentskills-io",
-      "fetchedAt": "2026-06-22T13:38:54+00:00",
+      "fetchedAt": "2026-06-29T12:38:37+00:00",
       "reachable": true,
       "htmlUrl": "https://agentskills.io",
       "trustScore": 5,
@@ -132,7 +130,7 @@
     },
     "skillsmp": {
       "id": "skillsmp",
-      "fetchedAt": "2026-06-22T13:38:54+00:00",
+      "fetchedAt": "2026-06-29T12:38:37+00:00",
       "reachable": true,
       "htmlUrl": "https://skillsmp.com",
       "trustScore": 2,
@@ -144,8 +142,8 @@
     },
     "lobehub": {
       "id": "lobehub",
-      "fetchedAt": "2026-06-22T13:38:54+00:00",
-      "reachable": false,
+      "fetchedAt": "2026-06-29T12:38:38+00:00",
+      "reachable": true,
       "htmlUrl": "https://lobehub.com/skills",
       "trustScore": 3,
       "trustNotes": "Better curation than SkillsMP. LobeHub has a track record in OSS AI tooling. Still community-sourced \u2014 verify before production.",
@@ -156,7 +154,7 @@
     },
     "agentskill-sh": {
       "id": "agentskill-sh",
-      "fetchedAt": "2026-06-22T13:38:54+00:00",
+      "fetchedAt": "2026-06-29T12:38:38+00:00",
       "reachable": true,
       "htmlUrl": "https://agentskill.sh",
       "trustScore": 3,
@@ -168,7 +166,7 @@
     },
     "skills-sh": {
       "id": "skills-sh",
-      "fetchedAt": "2026-06-22T13:38:55+00:00",
+      "fetchedAt": "2026-06-29T12:38:38+00:00",
       "reachable": true,
       "htmlUrl": "https://skills.sh",
       "trustScore": 2,
@@ -180,7 +178,7 @@
     },
     "superpowers": {
       "id": "superpowers",
-      "fetchedAt": "2026-06-22T13:38:55+00:00",
+      "fetchedAt": "2026-06-29T12:38:39+00:00",
       "reachable": true,
       "htmlUrl": "https://blog.fsck.com/2025/10/09/superpowers/",
       "trustScore": 3,
@@ -192,7 +190,7 @@
     },
     "mcollina-skills": {
       "id": "mcollina-skills",
-      "fetchedAt": "2026-06-22T13:38:55+00:00",
+      "fetchedAt": "2026-06-29T12:38:39+00:00",
       "reachable": true,
       "htmlUrl": "https://github.com/mcollina",
       "trustScore": 4,
@@ -204,7 +202,7 @@
     },
     "duckdb-skills": {
       "id": "duckdb-skills",
-      "fetchedAt": "2026-06-22T13:38:56+00:00",
+      "fetchedAt": "2026-06-29T12:38:39+00:00",
       "reachable": true,
       "htmlUrl": "https://github.com/duckdb",
       "trustScore": 5,
@@ -216,7 +214,7 @@
     },
     "vercel-skills": {
       "id": "vercel-skills",
-      "fetchedAt": "2026-06-22T13:38:56+00:00",
+      "fetchedAt": "2026-06-29T12:38:40+00:00",
       "reachable": true,
       "htmlUrl": "https://github.com/vercel-labs/agent-skills",
       "trustScore": 5,
